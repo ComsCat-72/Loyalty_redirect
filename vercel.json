@@ -3,13 +3,11 @@
         {
             "source": "/",
             "destination": "https://mediumspringgreen-cobra-647399.hostingersite.com/",
-            "permanent": false,
             "statusCode": 307
         },
         {
             "source": "/(.*)",
             "destination": "https://mediumspringgreen-cobra-647399.hostingersite.com/",
-            "permanent": false,
             "statusCode": 307
         }
     ]
