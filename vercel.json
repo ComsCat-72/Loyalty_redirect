@@ -1,14 +1,20 @@
 {
-    "redirects": [
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://mediumspringgreen-cobra-647399.hostingersite.com/",
+      "statusCode": 307
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
         {
-            "source": "/",
-            "destination": "https://mediumspringgreen-cobra-647399.hostingersite.com/",
-            "statusCode": 307
-        },
-        {
-            "source": "/(.*)",
-            "destination": "https://mediumspringgreen-cobra-647399.hostingersite.com/",
-            "statusCode": 307
+          "key": "X-Robots-Tag",
+          "value": "noindex"
         }
-    ]
+      ]
+    }
+  ]
 }
